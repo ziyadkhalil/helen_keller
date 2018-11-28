@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/tagBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:background="@color/half_black"
+    android:layout_columnWeight="1"
+    android:layout_columnSpan="1">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tagText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/can_i_have_some_coffee"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+</android.support.design.widget.CoordinatorLayout>

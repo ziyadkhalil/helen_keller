@@ -1,0 +1,3 @@
+include ':app', ':fablib', ':library'
+project(':fablib').projectDir = new File('lib/android-floating-action-button/sample')
+project(':library').projectDir = new File('lib/android-floating-action-button/library')
